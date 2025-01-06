@@ -3,8 +3,8 @@ import Breadcrumbs from '../components/Breadcrumbs';
 
 const Schedule = () => {
   return (
-    <div className="min-h-screen pt-16 lg:ml-64">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen pt-16 lg:ml-0 bg-gradient-to-br from-gray-50 to-blue-50">
+      <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs />
         <h1 className="text-3xl font-bold mb-6">Jadwal Latihan</h1>
 

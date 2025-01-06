@@ -7,7 +7,7 @@ const About = () => {
   const achievements = [
     {
       icon: "🏆",
-      title: "Juara 1 Turnamen Bogor Junior League 2023 (U-12)",
+      title: "Juara 1 Turnamen Bogor Junior League 2023 (U-12)", 
       description: "Tim U-12 berhasil menjuarai turnamen bergengsi dengan mengalahkan 16 tim peserta"
     },
     {
@@ -16,7 +16,7 @@ const About = () => {
       description: "Prestasi membanggakan dari tim junior kita di kompetisi tingkat kota"
     },
     {
-      icon: "🏅",
+      icon: "🏅", 
       title: "Top Scorer Turnamen Bogor Cup 2022",
       description: "Striker kami, Ahmad, mencetak 12 gol sepanjang turnamen"
     },
@@ -28,8 +28,8 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-16 lg:ml-64">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen pt-16 lg:ml-0 bg-gradient-to-br from-gray-50 to-blue-50">
+      <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs />
         <h1 className="text-3xl font-bold mb-6">Tentang Tiger Soccer School</h1>
         
