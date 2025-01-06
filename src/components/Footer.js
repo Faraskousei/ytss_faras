@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
-
+np
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-blue-900 to-blue-950">
